@@ -41,3 +41,15 @@ int main() {
 	float mysteryDataType = 5.6f;
 	return 0;
 }
+
+	
+	
+	//exercise division fix
+#include <iostream>
+using namespace std;
+int main() {
+	int numberOne = 50;
+	int numberTwo = 7;
+	cout << numberOne / numberTwo << endl;
+	return 0;
+}
