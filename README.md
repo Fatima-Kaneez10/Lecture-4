@@ -70,3 +70,24 @@ int main() {
 	cout << "You probably should add some line breaks in the text too" << endl;
 	return 0;
 }
+
+	
+	
+	//exercise usb sticks
+#include <iostream>
+using namespace std;
+
+int main()
+{
+
+	int money = 50;
+	int price_eachUsbStick = 06;
+	int USB_sticks = 50 / 6;
+	int Reminder = 50 % 6;
+
+	cout << "[Divide 50 by 6 and write quationt and reminder]" << endl;
+	cout << "Quationt:" << USB_sticks << endl;
+	cout << "reminder:" << Reminder << endl;
+
+	return 0;
+}
