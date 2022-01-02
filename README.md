@@ -76,19 +76,14 @@ int main() {
 	//exercise usb sticks
 #include <iostream>
 using namespace std;
-
 int main()
 {
-
-	int money = 50;
-	int price_eachUsbStick = 06;
-	int USB_sticks = 50 / 6;
-	int Reminder = 50 % 6;
-
-	cout << "[Divide 50 by 6 and write quationt and reminder]" << endl;
-	cout << "Quationt:" << USB_sticks << endl;
-	cout << "reminder:" << Reminder << endl;
-
+	int totalmoney = 50;
+	int eachprice = 6;
+	int totalusb = totalmoney / eachprice;
+	cout << "total usb sticks the girl can buy are :" << totalusb << endl;
+	int remainder = totalmoney % eachprice;
+	cout << "the money left after the purchase is :" << remainder << endl;
 	return 0;
 }
 
